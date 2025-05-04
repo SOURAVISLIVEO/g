@@ -28,7 +28,7 @@ LOG_FILE = "log.txt"
 KEY_FILE = "keys.json"
 RESELLERS_FILE = "resellers.json"
 BOT_LINK = "@SUPERPOWERDDOS_BOT"
-escaped_bot_link = BOT_LINK.replace('_', '\\_')
+escaped_bot_link = BOT_LINK.replace('SUPERPOWERDDOS_BOT')
 
 # Per key cost for resellers
 KEY_COST = {"1hour": 30, "5hours": 80, "1day": 120, "7days": 600, "1month": 1500}
